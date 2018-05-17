@@ -1,0 +1,27 @@
+{
+  "name": "motoblog",
+  "version": "0.0.1",
+  "description": "A blog about motorcycles.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenDK/MotoBlog.git"
+  },
+  "author": "Stephen Klein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenDK/MotoBlog/issues"
+  },
+  "homepage": "https://github.com/StephenDK/MotoBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "nodemon": "^1.17.4"
+  }
+}

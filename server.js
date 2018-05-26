@@ -24,7 +24,7 @@ mongoose.connection
 // ==============================================
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.static("client/build");
+app.use(express.static("client/build"));
 // ==============================================
 
 
@@ -35,7 +35,7 @@ app.use(express.static("client/build");
 // ==============================================
 
 // Port 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, function() {
     console.log("Application listening on " + PORT + " localhost");

@@ -17,6 +17,10 @@ const PostSchema = new Schema({
         type: String,
         required: "Description is Required"
     },
+    image: {
+        type: String,
+        trim: true
+    },
     postCreated: {
         type: Date,
         default: Date.now

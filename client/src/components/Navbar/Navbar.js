@@ -9,10 +9,25 @@ class Navbar extends Component {
                     <a class="nav-link active" href="/">About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Riders</a>
+                    <a class="nav-link active" href="/">About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Roads</a>
+                    <a className="nav-link" href="/">Computers</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/">Gadgets</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/">Video Games</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/">Music</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/">Boards</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="/">Motorcycles</a>
                 </li>
           </ul>
         )

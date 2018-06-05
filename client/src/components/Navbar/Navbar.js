@@ -4,12 +4,9 @@ class Navbar extends Component {
 
     render() {
         return(
-            <ul className="nav">
+            <ul className="navbar nav ">
                 <li className="nav-item">
-                    <a class="nav-link active" href="/">About</a>
-                </li>
-                <li className="nav-item">
-                    <a class="nav-link active" href="/">About</a>
+                    <a className="nav-link" href="/">About</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/">Computers</a>

@@ -31,7 +31,7 @@ app.use(express.static("client/build"));
 
 // Routes
 // ==============================================
-
+require('./routes/new-post')(app);
 // ==============================================
 
 // Port 
